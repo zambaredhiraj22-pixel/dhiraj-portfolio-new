@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dhiraj Zambre — Java Backend Developer portfolio featuring Spring Boot, secure APIs, React projects, and CAMPUS-IQ.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Dhiraj Zambre | Java Backend Developer</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121c31;--text:#eef3ff;--muted:#aab6d3;--accent:#72e0c0;--line:#293752;--blue:#9dbdff}
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1b3150 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}
+    .logo{font-weight:900;font-size:23px;letter-spacing:.5px}.logo span,.accent{color:var(--accent)}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:14px}.navlinks a:hover,.textlink:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1.5fr .8fr;gap:38px;align-items:center;padding:82px 0 64px}
+    .eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+    h1{font-size:clamp(40px,6vw,66px);line-height:1.08;letter-spacing:-1.8px;margin:15px 0}
+    .lead{font-size:18px;color:var(--muted);max-width:670px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-block;border:1px solid var(--line);padding:11px 17px;border-radius:10px;font-weight:750;font-size:14px;transition:.2s}
+    .btn:hover{transform:translateY(-2px);border-color:var(--accent)}.btn.primary{background:var(--accent);color:#07121a;border-color:var(--accent)}
+    .profile,.card{background:linear-gradient(145deg,rgba(23,36,60,.96),rgba(14,22,39,.96));border:1px solid var(--line);border-radius:18px;padding:23px}
+    .avatar{width:82px;height:82px;display:grid;place-items:center;border-radius:24px;background:linear-gradient(135deg,var(--accent),var(--blue));color:#07121a;font-size:29px;font-weight:900;margin-bottom:15px}
+    .profile h2{font-size:21px;margin:0}.muted{color:var(--muted)}.stat{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:10px 0;font-size:14px}
+    section{padding:35px 0}.section-head{margin-bottom:22px}h2.section-title{font-size:30px;line-height:1.2;margin:0 0 7px}.section-head p{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+    .card h3{margin:0 0 8px;font-size:20px}.card p{color:var(--muted);margin:0 0 14px}
+    .meta{font-size:12px;letter-spacing:1.4px;color:var(--accent);font-weight:800;margin-bottom:9px}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.tag{font-size:12px;border:1px solid #35445f;background:#17243c;color:#dce6ff;border-radius:999px;padding:5px 9px}
+    ul{color:var(--muted);padding-left:20px;margin:10px 0 16px}li{margin:5px 0}
+    .links{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.textlink{color:var(--accent);font-weight:750;font-size:14px}
+    .wide{grid-column:1/-1}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.contact-grid a{color:var(--accent);overflow-wrap:anywhere}
+    footer{border-top:1px solid var(--line);margin-top:30px;padding:27px 0 38px;color:var(--muted);font-size:13px}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:52px}.grid,.contact-grid{grid-template-columns:1fr}.wide{grid-column:auto}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:13px}.wrap{width:min(100% - 30px,1100px)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <a class="logo" href="#home">DZ<span>.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div>
+        <div class="eyebrow">Java Backend Developer · Entry Level</div>
+        <h1>Building useful software with <span class="accent">Java.</span></h1>
+        <p class="lead">I’m Dhiraj Dhanaji Zambre, a final-year Electronics and Telecommunication Engineering student interested in backend development, secure APIs, and full-stack applications.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore Projects ↓</a>
+          <a class="btn" href="#contact">Contact Me</a>
+          <a class="btn" href="https://github.com/zambaredhiraj22-pixel" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+        </div>
+      </div>
+      <aside class="profile">
+        <div class="avatar">DZ</div>
+        <h2>Dhiraj Dhanaji Zambre</h2>
+        <p class="muted">BE · Electronics & Telecommunication Engineering</p>
+        <div class="stat"><span>Primary focus</span><strong>Java / Spring Boot</strong></div>
+        <div class="stat"><span>Graduation</span><strong>2027</strong></div>
+        <div class="stat"><span>CGPA</span><strong>8.67 / 10</strong></div>
+      </aside>
+    </header>
+
+    <section id="about">
+      <div class="section-head"><h2 class="section-title">About Me</h2><p>Backend-focused developer who enjoys turning requirements into working applications.</p></div>
+      <div class="card"><p>I work with Java, Spring Boot, Spring Security, JWT authentication, REST APIs, and relational databases. I also use React to build responsive interfaces and connect them with backend services. I’m looking for opportunities to contribute to real software projects and keep improving my engineering skills.</p></div>
+    </section>
+
+    <section id="skills">
+      <div class="section-head"><h2 class="section-title">Technical Skills</h2><p>Tools and concepts I have studied or used in projects.</p></div>
+      <div class="grid">
+        <div class="card"><h3>Backend Development</h3><div class="tags"><span class="tag">Java</span><span class="tag">OOP</span><span class="tag">Collections</span><span class="tag">Spring Boot</span><span class="tag">Spring MVC</span><span class="tag">Spring Data JPA</span><span class="tag">Hibernate</span><span class="tag">Spring Security</span><span class="tag">JWT</span><span class="tag">REST APIs</span></div></div>
+        <div class="card"><h3>Frontend & Databases</h3><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">JDBC</span></div></div>
+        <div class="card"><h3>Tools</h3><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Postman</span><span class="tag">Maven</span><span class="tag">Vercel</span></div></div>
+        <div class="card"><h3>Core Concepts</h3><div class="tags"><span class="tag">Authentication</span><span class="tag">Authorization</span><span class="tag">Database Design</span><span class="tag">API Integration</span><span class="tag">Debugging</span></div></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-head"><h2 class="section-title">Featured Projects</h2><p>Academic and personal projects.</p></div>
+      <div class="grid">
+        <article class="card">
+          <div class="meta">AI · FULL STACK · PLACEMENT TECHNOLOGY</div>
+          <h3>CAMPUS-IQ — Placement Intelligence Platform</h3>
+          <p>A placement-readiness platform designed to support student assessments, skill verification, and company eligibility workflows.</p>
+          <ul><li>Student profiles and faculty-led skill verification.</li><li>Mock tests, test results, and role-based access.</li><li>AI-assisted question generation and interview workflows.</li></ul>
+          <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Security</span><span class="tag">JWT</span><span class="tag">React</span><span class="tag">MySQL</span><span class="tag">Groq API</span></div>
+          <div class="links"><a class="textlink" href="https://campusiq-placement.vercel.app" target="_blank" rel="noopener noreferrer">Live Project ↗</a><a class="textlink" href="https://github.com/zambaredhiraj22-pixel/campusiq-backend" target="_blank" rel="noopener noreferrer">Backend Repository ↗</a></div>
+        </article>
+        <article class="card">
+          <div class="meta">REACT · WEB DEVELOPMENT</div>
+          <h3>Food Delivery Website</h3>
+          <p>A responsive food delivery web application built with React and Vite, with food browsing and shopping-style interactions.</p>
+          <ul><li>React-based frontend and reusable UI components.</li><li>Responsive layout for different screen sizes.</li><li>Project source available in GitHub.</li></ul>
+          <div class="tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">JavaScript</span><span class="tag">CSS</span></div>
+          <div class="links"><a class="textlink" href="https://github.com/zambaredhiraj22-pixel/React-using-food-delivery-website" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a></div>
+        </article>
+        <article class="card">
+          <div class="meta">REACT · E-COMMERCE</div>
+          <h3>E-commerce Website</h3>
+          <p>A shopping-oriented web interface with product browsing and a responsive user experience.</p>
+          <div class="tags"><span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>
+          <div class="links"><a class="textlink" href="https://ecommerce-website-sigma-gules.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo ↗</a><a class="textlink" href="https://github.com/zambaredhiraj22-pixel/-react-shopping-website" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a></div>
+        </article>
+        <article class="card">
+          <div class="meta">JAVASCRIPT · API INTEGRATION</div>
+          <h3>Weather API Project</h3>
+          <p>A Node.js weather application that retrieves current weather information using a weather API.</p>
+          <div class="tags"><span class="tag">Node.js</span><span class="tag">JavaScript</span><span class="tag">API Integration</span></div>
+          <div class="links"><a class="textlink" href="https://github.com/zambaredhiraj22-pixel/node-weather-api-project" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-head"><h2 class="section-title">Experience</h2><p>Internship experience.</p></div>
+      <div class="card">
+        <div class="meta">JAVA DEVELOPMENT INTERNSHIP</div>
+        <h3>Java Developer Intern — Axonbloom Talent</h3>
+        <p>Working on Java development and strengthening programming, debugging, and application-development skills. Keep this description aligned with the actual work and responsibilities from the internship.</p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">OOP</span><span class="tag">Backend Fundamentals</span></div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-head"><h2 class="section-title">Education</h2></div>
+      <div class="card"><h3>B.E. — Electronics & Telecommunication Engineering</h3><p>P.E.S. Modern College of Engineering, Pune</p><p class="muted">Expected graduation: 2027 · CGPA: 8.67 / 10 (verify latest official result before sharing)</p></div>
+    </section>
+
+    <section id="contact">
+      <div class="section-head"><h2 class="section-title">Let’s Connect</h2><p>Interested in entry-level software engineering and Java backend opportunities.</p></div>
+      <div class="contact-grid">
+        <div class="card"><h3>Professional Links</h3><p>GitHub: <a href="https://github.com/zambaredhiraj22-pixel" target="_blank" rel="noopener noreferrer">github.com/zambaredhiraj22-pixel</a></p><p>LinkedIn: <a href="https://www.linkedin.com/in/dhiraj-zambare-dev/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p><p>LeetCode: <a href="https://leetcode.com/u/3g0LVlPPXT/" target="_blank" rel="noopener noreferrer">LeetCode Profile</a></p><p>Email: <a href="mailto:zambaredhiraj22@gmail.com">zambaredhiraj22@gmail.com</a></p></div>
+        <div class="card"><h3>Quick Note</h3><p>This is a static HTML and CSS portfolio. No build command or package installation is needed to deploy it on Vercel.</p><p class="muted">Before sharing with recruiters, verify project links, CGPA, and internship details.</p></div>
+      </div>
+    </section>
+    <footer>© 2026 Dhiraj Zambre · Built with HTML and CSS.</footer>
+  </div>
+</body>
+</html>
